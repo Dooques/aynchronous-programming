@@ -34,17 +34,18 @@ namespace AsynchronousProgramming
             var hello = Task.Run(async () =>
             {
                 await Task.Delay(3000);
-                Console.WriteLine("Hello...");
+                return "Hello...";
             });
 
             var world = Task.Run(async () =>
             {
                 await Task.Delay(3000);
-                Console.WriteLine("...World.");
+                return "...World.";
             });
-
-            await hello;
-            await world;
+           
+            var combinedTasks = Task.WhenAll([hello, world]);
+            await combinedTasks;
+            Console.WriteLine(string.Join("", combinedTasks.Result));
         }
     }
 }
