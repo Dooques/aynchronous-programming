@@ -28,10 +28,11 @@ namespace AsynchronousProgramming
                     }).ToList()));
 
             var songWordList = Task.Run(() => story.Split(' ').ToList());
-            
+
             var printSongWords = await songWordList.ContinueWith(async task =>
             {
-                await Task.Run(() => task.Result.ForEach(w => {
+                await Task.Run(() => task.Result.ForEach(w =>
+                {
                     PrintWordWithDelay(w);
                 }));
             });
@@ -41,6 +42,10 @@ namespace AsynchronousProgramming
 
             stopwatch.Stop();
             Console.WriteLine($"This code executed in {stopwatch.ElapsedMilliseconds}ms");
+
+            // Accessing the secret file 
+            string filePath = @"SuperSecretFile.txt";
+            Console.WriteLine(AsyncFileManager.ReadFile(filePath));
         }
 
         static void PrintWordWithDelay(string word)
