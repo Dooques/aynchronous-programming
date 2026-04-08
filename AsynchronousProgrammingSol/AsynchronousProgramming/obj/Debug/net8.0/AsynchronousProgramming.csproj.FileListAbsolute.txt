@@ -1,0 +1,15 @@
+C:\Users\Clive\Documents\northcoders\fundamentals\asynchronous-programming\AsynchronousProgrammingSol\AsynchronousProgramming\bin\Debug\net8.0\AsynchronousProgramming.exe
+C:\Users\Clive\Documents\northcoders\fundamentals\asynchronous-programming\AsynchronousProgrammingSol\AsynchronousProgramming\bin\Debug\net8.0\AsynchronousProgramming.deps.json
+C:\Users\Clive\Documents\northcoders\fundamentals\asynchronous-programming\AsynchronousProgrammingSol\AsynchronousProgramming\bin\Debug\net8.0\AsynchronousProgramming.runtimeconfig.json
+C:\Users\Clive\Documents\northcoders\fundamentals\asynchronous-programming\AsynchronousProgrammingSol\AsynchronousProgramming\bin\Debug\net8.0\AsynchronousProgramming.dll
+C:\Users\Clive\Documents\northcoders\fundamentals\asynchronous-programming\AsynchronousProgrammingSol\AsynchronousProgramming\bin\Debug\net8.0\AsynchronousProgramming.pdb
+C:\Users\Clive\Documents\northcoders\fundamentals\asynchronous-programming\AsynchronousProgrammingSol\AsynchronousProgramming\obj\Debug\net8.0\AsynchronousProgramming.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Clive\Documents\northcoders\fundamentals\asynchronous-programming\AsynchronousProgrammingSol\AsynchronousProgramming\obj\Debug\net8.0\AsynchronousProgramming.AssemblyInfoInputs.cache
+C:\Users\Clive\Documents\northcoders\fundamentals\asynchronous-programming\AsynchronousProgrammingSol\AsynchronousProgramming\obj\Debug\net8.0\AsynchronousProgramming.AssemblyInfo.cs
+C:\Users\Clive\Documents\northcoders\fundamentals\asynchronous-programming\AsynchronousProgrammingSol\AsynchronousProgramming\obj\Debug\net8.0\AsynchronousProgramming.csproj.CoreCompileInputs.cache
+C:\Users\Clive\Documents\northcoders\fundamentals\asynchronous-programming\AsynchronousProgrammingSol\AsynchronousProgramming\obj\Debug\net8.0\AsynchronousProgramming.sourcelink.json
+C:\Users\Clive\Documents\northcoders\fundamentals\asynchronous-programming\AsynchronousProgrammingSol\AsynchronousProgramming\obj\Debug\net8.0\AsynchronousProgramming.dll
+C:\Users\Clive\Documents\northcoders\fundamentals\asynchronous-programming\AsynchronousProgrammingSol\AsynchronousProgramming\obj\Debug\net8.0\refint\AsynchronousProgramming.dll
+C:\Users\Clive\Documents\northcoders\fundamentals\asynchronous-programming\AsynchronousProgrammingSol\AsynchronousProgramming\obj\Debug\net8.0\AsynchronousProgramming.pdb
+C:\Users\Clive\Documents\northcoders\fundamentals\asynchronous-programming\AsynchronousProgrammingSol\AsynchronousProgramming\obj\Debug\net8.0\AsynchronousProgramming.genruntimeconfig.cache
+C:\Users\Clive\Documents\northcoders\fundamentals\asynchronous-programming\AsynchronousProgrammingSol\AsynchronousProgramming\obj\Debug\net8.0\ref\AsynchronousProgramming.dll
