@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System.Numerics;
 
 namespace AsynchronousProgramming
 {
@@ -6,14 +7,26 @@ namespace AsynchronousProgramming
     {
         static async Task Main(string[] args)
         {
-            //Console.WriteLine("Task Started");
-            //await HelloWorld();
-            //Console.WriteLine("Task Finished");
+            // Console.WriteLine("Task Started");
+            // await HelloWorld();
+            // Console.WriteLine("Task Finished");
+            // await HelloWorldDelay();
+
+            string data = "85671 34262 92143 50984 24515 68356 77247 12348 56789 98760";
 
             var stopwatch = new Stopwatch();
             stopwatch.Start();
 
-            await HelloWorldDelay();
+            
+            var factorialData = Task.Run (() => data.Split(' ').Select(n => BigInteger.Parse(n)).ToList());
+
+
+           var task = await factorialData.ContinueWith(async factorial => factorial.Result.Select(f => Exercises.CalculateFactorial(f)).ToList());
+
+            var list = await task;
+
+            list.ForEach(f => Console.WriteLine(f));
+
             stopwatch.Stop();
             Console.WriteLine($"This code executed in {stopwatch.ElapsedMilliseconds}ms");
         }

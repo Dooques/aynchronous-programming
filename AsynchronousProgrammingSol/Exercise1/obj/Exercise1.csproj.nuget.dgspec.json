@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Clive\\Documents\\northcoders\\fundamentals\\asynchronous-programming\\AsynchronousProgrammingSol\\AsynchronousProgramming\\AsynchronousProgramming.csproj": {}
+    "C:\\Users\\Clive\\Documents\\northcoders\\fundamentals\\asynchronous-programming\\AsynchronousProgrammingSol\\Exercise1\\Exercise1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Clive\\Documents\\northcoders\\fundamentals\\asynchronous-programming\\AsynchronousProgrammingSol\\AsynchronousProgramming\\AsynchronousProgramming.csproj": {
+    "C:\\Users\\Clive\\Documents\\northcoders\\fundamentals\\asynchronous-programming\\AsynchronousProgrammingSol\\Exercise1\\Exercise1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Clive\\Documents\\northcoders\\fundamentals\\asynchronous-programming\\AsynchronousProgrammingSol\\AsynchronousProgramming\\AsynchronousProgramming.csproj",
-        "projectName": "AsynchronousProgramming",
-        "projectPath": "C:\\Users\\Clive\\Documents\\northcoders\\fundamentals\\asynchronous-programming\\AsynchronousProgrammingSol\\AsynchronousProgramming\\AsynchronousProgramming.csproj",
+        "projectUniqueName": "C:\\Users\\Clive\\Documents\\northcoders\\fundamentals\\asynchronous-programming\\AsynchronousProgrammingSol\\Exercise1\\Exercise1.csproj",
+        "projectName": "Exercise1",
+        "projectPath": "C:\\Users\\Clive\\Documents\\northcoders\\fundamentals\\asynchronous-programming\\AsynchronousProgrammingSol\\Exercise1\\Exercise1.csproj",
         "packagesPath": "C:\\Users\\Clive\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Clive\\Documents\\northcoders\\fundamentals\\asynchronous-programming\\AsynchronousProgrammingSol\\AsynchronousProgramming\\obj\\",
+        "outputPath": "C:\\Users\\Clive\\Documents\\northcoders\\fundamentals\\asynchronous-programming\\AsynchronousProgrammingSol\\Exercise1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

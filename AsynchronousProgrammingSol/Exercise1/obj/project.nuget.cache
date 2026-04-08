@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rdGXT2K6rv0=",
+  "dgSpecHash": "DWr5cxoZzJs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Clive\\Documents\\northcoders\\fundamentals\\asynchronous-programming\\AsynchronousProgrammingSol\\AsynchronousProgramming\\AsynchronousProgramming.csproj",
+  "projectFilePath": "C:\\Users\\Clive\\Documents\\northcoders\\fundamentals\\asynchronous-programming\\AsynchronousProgrammingSol\\Exercise1\\Exercise1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Clive\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.25\\microsoft.windowsdesktop.app.ref.8.0.25.nupkg.sha512",
     "C:\\Users\\Clive\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.25\\microsoft.netcore.app.ref.8.0.25.nupkg.sha512",
