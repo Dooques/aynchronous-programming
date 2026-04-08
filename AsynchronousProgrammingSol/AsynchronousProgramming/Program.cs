@@ -23,44 +23,49 @@ namespace AsynchronousProgramming
                     await Task.Run(() => factorial.Result.Select(f =>
                     {
                         var factorialResult = Exercises.CalculateFactorial(f);
-                        //Console.WriteLine(factorialResult);
+                        Console.WriteLine(factorialResult);
                         return factorialResult;
                     }).ToList()));
 
-            var separateWord = Task.Run(() => story.Split(' ').ToList());
-            var printWords = await separateWord.ContinueWith(async wordList =>
-                
-                    await Task.Run(() => wordList.Result.Select(w =>
-                    {
-                        Task.Run(async () =>
-                        {
-                            await Task.Delay(2000);
-                            Console.WriteLine(w);
-                            return w;
-                        });
-                        
-                    }))
-                );
+            var songWordList = Task.Run(() => story.Split(' ').ToList());
+            
+            var printSongWords = await songWordList.ContinueWith(async task =>
+            {
+                await Task.Run(() => task.Result.ForEach(w => {
+                    PrintWordWithDelay(w);
+                }));
+            });
 
-            var list = Task.WhenAll([getFactorial, printWords]);
+            var list = Task.WhenAll([getFactorial, printSongWords]);
             await list;
 
             stopwatch.Stop();
             Console.WriteLine($"This code executed in {stopwatch.ElapsedMilliseconds}ms");
         }
 
-        static async Task HelloWorld()
+        static void PrintWordWithDelay(string word)
+        {
+            var executeBlock = Task.Run(async () =>
             {
-                var helloWorld = Task.Run(async () =>
-                {
-                    await Task.Delay(2000);
-                    Console.WriteLine("Hello World.");
-                });
+                await Task.Delay(1000);
+                Console.WriteLine(word);
+            });
 
-                await helloWorld;
-            }
+            executeBlock.Wait();
+        }
 
-            static async Task HelloWorldDelay()
+        static async Task HelloWorld()
+        {
+            var helloWorld = Task.Run(async () =>
+            {
+                await Task.Delay(2000);
+                Console.WriteLine("Hello World.");
+            });
+
+            await helloWorld;
+        }
+
+        static async Task HelloWorldDelay()
             {
                 var rnd = new Random();
                 //int randomnum1 = rnd.Next(1,11);

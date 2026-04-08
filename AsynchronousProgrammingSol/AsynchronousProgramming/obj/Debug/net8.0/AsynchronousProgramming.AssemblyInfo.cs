@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AsynchronousProgramming")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc50268ce3c1faa9d9ec51df65ff5f4b18458be5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72956f6255f7dd4aef4515841bd72e42c11edb58")]
 [assembly: System.Reflection.AssemblyProductAttribute("AsynchronousProgramming")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AsynchronousProgramming")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
