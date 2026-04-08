@@ -21,7 +21,7 @@ namespace AsynchronousProgramming
             var factorialData = Task.Run (() => data.Split(' ').Select(n => BigInteger.Parse(n)).ToList());
 
 
-           var task = await factorialData.ContinueWith(async factorial => factorial.Result.Select(f => Exercises.CalculateFactorial(f)).ToList());
+           var task = await factorialData.ContinueWith(async factorial => await Task.Run(() => factorial.Result.Select(f => Exercises.CalculateFactorial(f)).ToList()));
 
             var list = await task;
 
